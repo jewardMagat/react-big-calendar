@@ -60,7 +60,7 @@ class EventEndingRow extends React.Component {
       }
     }
 
-    return <div className="rbc-row">{row}</div>
+    return <div className="rbc-row">{slots}</div>
   }
 
   canRenderSlotEvent(slot, span) {
